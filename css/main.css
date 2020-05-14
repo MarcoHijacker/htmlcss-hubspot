@@ -10,3 +10,64 @@
 body {
   font-family: Montserrat;
 }
+
+.resize {
+  padding: 0 5%;
+}
+
+.clearit::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.firstrow {
+  background-color: #f4f9fd;
+  height: 80px;
+  padding-top: 30px;
+  border-bottom: solid 1px #32495b;
+}
+
+.left1row {
+  color: #32495b;
+  font-size: 14px;
+  float: left;
+  width: 40%;
+  text-align: left;
+}
+
+.language {
+  padding-right: 20px;
+  float: left;
+  border-right: solid 1px #32495b;
+}
+
+.contact {
+  padding-left: 20px;
+  float: left;
+}
+
+.riga1right {
+  width: 40%;
+  float: right;
+  text-align: right;
+}
+
+.buttonorange {
+  background-color: #fe775a;
+  color: white;
+  font-size: 14px;
+  border-radius: 2px;
+  padding: 4px;
+}
+
+.fa-search {
+  color: #00a4bd;
+}
+
+.buttonvariant {
+  background-color: white;
+  border: solid 1px #fe775a;
+  border-radius: 2px;
+  color: #fe775a;
+}
