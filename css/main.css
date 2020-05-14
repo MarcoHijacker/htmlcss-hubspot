@@ -21,6 +21,10 @@ body {
   clear: both;
 }
 
+.clearit div {
+  float: left;
+}
+
 .firstrow {
   background-color: #f4f9fd;
   height: 80px;
@@ -38,16 +42,14 @@ body {
 
 .language {
   padding-right: 20px;
-  float: left;
   border-right: solid 1px #32495b;
 }
 
 .contact {
   padding-left: 20px;
-  float: left;
 }
 
-.riga1right {
+.right1row {
   width: 40%;
   float: right;
   text-align: right;
