@@ -1,0 +1,12 @@
+/* CSS di Hubspot Template */
+
+/* Reset margini e paddin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Font sul body */
+body {
+  font-family: Montserrat;
+}
