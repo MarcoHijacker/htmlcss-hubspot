@@ -12,7 +12,7 @@ body {
   font-family: Montserrat;
 }
 
-/* Generali */
+/* Generali o ricorrenti */
 .resize {
   padding: 0 5%;
 }
@@ -25,6 +25,13 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.button-orange {
+  background-color: #fe775a;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 7px;
+}
 
 /* Top menu fixed */
 .fixed-menu {
@@ -34,12 +41,12 @@ a {
 }
 
 /* Top menu fixed LEFT BLOCK */
-.left-row {
+.left-side {
   color: #32495b;
   font-size: 14px;
   text-align: left;
   float: left;
-  padding-top: 30px;
+  margin-top: 30px;
 }
 .language {
   padding-right: 20px;
@@ -52,13 +59,13 @@ a {
 }
 
 /* Top menu fixed RIGHT BLOCK */
-.right-row {
+.right-side {
   float: right;
   text-align: right;
   padding-left: 150px;
   margin-top: 25px;
 }
-.right-row div {
+.right-side a {
   float: left;
   margin-left: 30px;
 }
@@ -78,10 +85,51 @@ a {
   font-size: 14px;
   margin-left: 30px;
 }
-.button-orange {
-  background-color: #fe775a;
-  color: white;
+
+/* Sub menu */
+.submenu {
+  background-color: #white;
+  height: 60px;
+  margin-top: 20px;
+}
+.submenu div, .submenu div ul li {
+  margin-right: 10px;
+  display: inline-block;
+}
+.logo {
+  text-align: left;
+  width: 50%;
+  margin-top: 5px;
+}
+.rightnav {
+  text-align: right;
+  width: 45%;
   font-size: 14px;
-  border-radius: 4px;
-  padding: 7px;
+}
+
+/* Jumbo section */
+.jumbosect {
+  min-height: 600px;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.jumbopar {
+  width: 40%;
+  color: #001c41;
+  padding-top: 50px;
+}
+.jumbopar * {
+  margin-bottom: 20px;
+}
+.small {
+  width: 130px;
+}
+.title {
+  font-size: 30px;
+  font-weight: 900;
+}
+.paragraph {
+  font-size: 14px;
 }
