@@ -1,75 +1,85 @@
 /* CSS di Hubspot Template */
 
-/* Reset margini e paddin */
+/* Reset margini e padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 /* Font sul body */
 body {
   font-family: Montserrat;
 }
 
+/* Generali */
 .resize {
   padding: 0 5%;
 }
-
-.clearit::after {
+.row::after {
   content: "";
   display: table;
   clear: both;
 }
 
-.clearit div {
-  float: left;
-}
-
-.firstrow {
+/* Top menu fixed */
+.fixed-menu {
   background-color: #f4f9fd;
   height: 80px;
-  padding-top: 30px;
   border-bottom: solid 1px #32495b;
 }
 
-.left1row {
+/* Top menu fixed LEFT BLOCK */
+.left-row {
   color: #32495b;
   font-size: 14px;
-  float: left;
   width: 40%;
   text-align: left;
+  float: left;
+  padding-top: 30px;
 }
-
 .language {
   padding-right: 20px;
   border-right: solid 1px #32495b;
+  float: left;
 }
-
 .contact {
   padding-left: 20px;
+  float: left;
 }
 
-.right1row {
+/* Top menu fixed RIGHT BLOCK */
+.right-row {
   width: 40%;
   float: right;
   text-align: right;
+  padding-left: 150px;
+  margin-top: 25px;
 }
-
-.buttonorange {
-  background-color: #fe775a;
-  color: white;
-  font-size: 14px;
-  border-radius: 2px;
-  padding: 4px;
+.right-row div {
+  float: left;
+  margin-left: 30px;
 }
-
+.lens {
+  margin-top: 6px;
+}
 .fa-search {
   color: #00a4bd;
 }
-
-.buttonvariant {
+.button-white {
   background-color: white;
   border: solid 1px #fe775a;
   border-radius: 2px;
   color: #fe775a;
+  border-radius: 4px;
+  padding: 6px;
+  font-size: 14px;
+  margin-left: 30px;
+}
+.button-orange {
+  background-color: #fe775a;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 7px;
 }
