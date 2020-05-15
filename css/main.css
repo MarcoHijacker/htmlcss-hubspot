@@ -21,6 +21,10 @@ body {
   display: table;
   clear: both;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 /* Top menu fixed */
 .fixed-menu {
@@ -33,7 +37,6 @@ body {
 .left-row {
   color: #32495b;
   font-size: 14px;
-  width: 40%;
   text-align: left;
   float: left;
   padding-top: 30px;
@@ -50,7 +53,6 @@ body {
 
 /* Top menu fixed RIGHT BLOCK */
 .right-row {
-  width: 40%;
   float: right;
   text-align: right;
   padding-left: 150px;
