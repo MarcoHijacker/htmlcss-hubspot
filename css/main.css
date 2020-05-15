@@ -108,7 +108,7 @@ a {
   font-size: 14px;
 }
 
-/* Jumbo section */
+/* Jumbo Section */
 .jumbosect {
   min-height: 600px;
   background-image: url("../img/jumbotron.png");
@@ -128,9 +128,15 @@ a {
   width: 130px;
 }
 .title {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 900;
 }
 .paragraph {
   font-size: 14px;
+}
+
+/* Hub Section */
+.hubsect {
+  min-height: 1000px;
+  background-color: #f4f9fd;
 }
