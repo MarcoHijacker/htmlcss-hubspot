@@ -14,7 +14,7 @@ body {
 
 /* Generali o ricorrenti */
 .resize {
-  padding: 0 5%;
+  padding: 0 10%;
 }
 .row::after {
   content: "";
@@ -97,11 +97,13 @@ a {
   margin-right: 10px;
   display: inline-block;
 }
+/* Sub menu Left side */
 .logo {
   text-align: left;
   width: 50%;
   margin-top: 5px;
 }
+/* Sub menu Right side */
 .rightnav {
   text-align: right;
   width: 47%;
@@ -110,11 +112,12 @@ a {
 
 /* Jumbo Section */
 .jumbosect {
-  min-height: 600px;
+  min-height: 750px;
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 100%;
+  max-width: 100%;
 }
 .spacepar {
   width: 40%;
@@ -131,18 +134,20 @@ a {
 .title {
   font-size: 35px;
   font-weight: 900;
+  color: #33475b;
 }
 .titlethin {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
 }
 .paragraph {
   font-size: 14px;
+  color: #33475b;
 }
 
 /* Hub Section */
 .hubsect {
-  height: 1000px;
+  min-height: 1000px;
   background-color: #f4f9fd;
 }
 .onesize {
@@ -150,10 +155,10 @@ a {
   width: 70%;
   margin: 0 15%;
 }
+/* White boxes area */
 .whitebox {
-  height: 200px;
   background-color: white;
-  width: 100%;
+  /* width: 100%; */
   border: solid 1px lightgrey;
   border-radius: 3px;
 }
@@ -178,7 +183,7 @@ a {
 .rightcol {
   width: 60%;
   float: left;
-  margin-top: 33px;
+  margin: 20px 0;
   padding-right: 40px;
 }
 .rightcol div {
@@ -191,9 +196,11 @@ a {
   font-size: 16px;
   font-weight: 600;
   color: #001c41;
+  padding-bottom: 10px;
 }
 .par-hub {
   font-size: 14px;
+  color: #001c41;
 }
 .fa-check-circle {
   color: #ff7560;
@@ -222,4 +229,175 @@ a {
   display: inline-block;
   margin-right: 10px;
   font-size: 12px;
+}
+.carosel {
+  margin-top: 45px;
+  padding-bottom: 45px;
+}
+.col-carosel {
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+  text-align: center;
+  padding: 10px 50px;
+  min-height: 500px;
+}
+.col-carosel > * {
+  margin-bottom: 20px;
+}
+.col-carosel a {
+  display: block;
+  margin: 55px 25% 20px;
+}
+.col-carosel:last-child {
+  margin-right: 0;
+}
+#par-carosel {
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: #001c41;
+}
+.text-carosel {
+  font-weight: 600;
+  font-size: 14px;
+  color: #001c41;
+}
+.check-carosel {
+  font-size: 14px;
+  color: #001c41;
+}
+.check-carosel {
+  list-style-type: none;
+  text-align: left;
+}
+.button-carosel {
+  margin-top: 25px;
+  padding: 10px;
+}
+/* Sezione Griglia */
+.grill {
+  text-align: center;
+  min-height: 650px;
+  background-image: linear-gradient(90deg, #00a4bc 0%, #00b0b1 51%, #00bca5 75%);
+}
+.grill .title-grill {
+  padding: 35px 0;
+}
+.title-grill {
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+}
+.par-grill {
+  color: white;
+  font-size: 12px;
+  padding-bottom: 50px;
+}
+.cell {
+  width: 25%;
+  float: left;
+  min-height: 200px;
+  border-right: solid 1px white;
+  padding: 25px;
+}
+.cell div {
+  margin-bottom: 10px;
+}
+.down-grill .cell {
+  border-top: solid 1px white;
+}
+.cell:last-child {
+  border-right: 0;
+}
+.num-grill {
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  position: relative;
+}
+.num-grill span {
+  font-size: 20px;
+  position: absolute;
+  top: 35%;
+}
+.sub-grill {
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+}
+/* Sezione Rewards */
+.rewards {
+  min-height: 600px;
+}
+.score {
+  float: left;
+  width: 30%;
+  min-height: 250px;
+  border: solid 1px white;
+  padding: 60px 185px 40px 98px;
+}
+.title-score {
+  font-size: 36px;
+  color: black;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #33475b;
+}
+.subtitle-score {
+  font-size: 14px;
+  color: black;
+  text-align: left;
+  color: #33475b;
+}
+.brands {
+  float: left;
+  width: 70%;
+  min-height: 250px;
+  border: solid 1px white;
+  padding: 70px 55px 55px 50px;
+}
+.startnow {
+  float: left;
+  width: 35%;
+  height: 300px;
+  border: solid 1px white;
+}
+.woman {
+  float: left;
+  width: 65%;
+  min-height: 300px;
+  border: solid 1px white;
+}
+.brand-logo {
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+.up-brands div {
+  margin-bottom: 40px;
+}
+.atlassian, .doordash {
+  padding-top: 4px;
+}
+.wistia, .vmware {
+  padding-top: 10px;
+}
+.startnow {
+  margin-top: 45px;
+}
+.startnow div {
+  margin-bottom: 20px;
+}
+.startnow .button-orange {
+  padding: 7px;
+  margin: 30px 0;
+}
+.woman {
+  text-align: right;
+}
+/* Sezione Footer */
+footer {
+  background-color: #32495b;
+  min-height: 500px;
 }
