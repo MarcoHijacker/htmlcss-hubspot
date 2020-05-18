@@ -473,3 +473,6 @@ footer {
   font-size: 14px;
   margin-right: 20px;
 }
+footer li a:hover {
+  color: #08d1f9;
+}
