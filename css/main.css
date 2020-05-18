@@ -32,6 +32,12 @@ a {
   border-radius: 4px;
   padding: 7px;
 }
+.bo-rollover:hover {
+  background-color: #ffb19e;
+}
+.bw-rollover:hover {
+  background-color: #ff7a591c;
+}
 ul {
   list-style-type: none;
 }
@@ -175,9 +181,10 @@ ul {
   float: left;
   padding-top: 30px;
 }
-.leftcol div {
+.leftcol div, .leftcol a {
   text-align: center;
   margin-bottom: 10px;
+  display: block;
 }
 .button-space {
   margin: 0 35%;
@@ -389,6 +396,10 @@ ul {
 }
 .startnow div {
   margin-bottom: 20px;
+}
+.startnow a {
+  margin-bottom: 20px;
+  display: block;
 }
 .startnow .button-orange {
   padding: 7px;
