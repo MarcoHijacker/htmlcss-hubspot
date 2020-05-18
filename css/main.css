@@ -47,6 +47,11 @@ ul {
   background-color: #f4f9fd;
   height: 80px;
   border-bottom: solid 1px #32495b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: block;
 }
 
 /* Top menu fixed LEFT BLOCK */
@@ -100,17 +105,17 @@ ul {
 .submenu {
   background-color: #white;
   height: 60px;
-  margin-top: 20px;
+  margin-top: 95px;
 }
 .submenu div, .submenu div ul li {
   margin-right: 10px;
   display: inline-block;
 }
 /* Sub menu Left side */
-.logo {
+#logo {
   text-align: left;
   width: 50%;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 /* Sub menu Right side */
 .rightnav {
