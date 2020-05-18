@@ -112,12 +112,14 @@ ul {
   margin-right: 10px;
   display: inline-block;
 }
+
 /* Sub menu Left side */
 #logo {
   text-align: left;
   width: 50%;
   margin-top: 5px;
 }
+
 /* Sub menu Right side */
 .rightnav {
   text-align: right;
@@ -170,10 +172,10 @@ ul {
   width: 70%;
   margin: 0 15%;
 }
+
 /* White boxes area */
 .whitebox {
   background-color: white;
-  /* width: 100%; */
   border: solid 1px lightgrey;
   border-radius: 3px;
 }
@@ -289,6 +291,7 @@ ul {
   margin-top: 25px;
   padding: 10px;
 }
+
 /* Sezione Griglia */
 .grill {
   text-align: center;
@@ -340,6 +343,7 @@ ul {
   color: white;
   font-weight: 600;
 }
+
 /* Sezione Rewards */
 .rewards {
   min-height: 650px;
@@ -414,6 +418,7 @@ ul {
 .woman {
   text-align: right;
 }
+
 /* Sezione Footer */
 footer {
   background-color: #32495b;
