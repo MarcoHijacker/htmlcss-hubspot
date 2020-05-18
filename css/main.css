@@ -52,6 +52,7 @@ ul {
   left: 0;
   width: 100%;
   display: block;
+  z-index: 999;
 }
 
 /* Top menu fixed LEFT BLOCK */
@@ -115,7 +116,7 @@ ul {
 #logo {
   text-align: left;
   width: 50%;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 /* Sub menu Right side */
 .rightnav {
